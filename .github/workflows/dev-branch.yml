@@ -19,10 +19,10 @@ jobs:
           node-version: '16' # You can specify your preferred Node.js version here
 
       - name: Install backend dependencies
-        run: cd backend && npm install
+        run: cd backend && npm install --force
         
       - name: Install frontend dependencies
-        run: cd frontent && npm install
+        run: cd frontent && npm install --force
 
       - name: Create Pull Request
         uses: peter-evans/create-pull-request@v3
