@@ -1,9 +1,6 @@
 name: Merge PR, Test, Build, and Deploy
 
-on:
-  pull_request:
-    branches:
-      - main
+on: workflow_dispatch
 
 jobs:
   merge_and_test:
