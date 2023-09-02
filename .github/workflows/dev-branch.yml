@@ -1,9 +1,6 @@
 name: Test and raise PR to Main Branch
 
-on:
-  push:
-    branches:
-      - dev-branch
+on: workflow_dispatch
 
 jobs:
   build:
